@@ -2,6 +2,8 @@
 
 This code is a GPU-accelerated surfel-based fluid / membrane simulator used for research-quality experiments comparing a Warp/GPU implementation with a reference CPU implementation. The repository contains the simulation core, utilities for logging and visualization.
 
+![GPU Diagram Surfel Simulation Implementation](./GPU_Diagram.drawio.png)
+
 ## Quick overview
 
 - Core simulation code: `core/` (model implementations, surfel handling, logging, kernels)
